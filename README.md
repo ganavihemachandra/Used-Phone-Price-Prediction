@@ -34,7 +34,7 @@ The DAG provides a visual guide for decision-making in terms of feature importan
 
 ## Technology Description
 
-**Datasource:** [Used Phone Price Prediction Dataset](https://www.kaggle.com/code/kavya2099/used-phone-price-prediction#Model-Selection-and-Evaluation)
+**Datasource:** [Used Phone Price Prediction Dataset](https://www.kaggle.com/datasets/ahsan81/used-handheld-device-data)
 
 **Variables:**
 - device_brand
