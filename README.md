@@ -29,7 +29,6 @@ The problem at hand is to address the pricing challenge faced by a company speci
 - Price Insights
 
 ## Directed Acyclic Graph (DAG)
-![image](https://github.com/ganavihemachandra/Used-Phone-Price-Prediction/assets/85887828/f24144e0-3943-4a68-92f4-b96861518458)
 
 The DAG provides a visual guide for decision-making in terms of feature importance. Features with arrows pointing towards the target variables are considered influential. It serves as a high-level representation of the interconnections among variables and their potential impact on predicting used device prices.
 
