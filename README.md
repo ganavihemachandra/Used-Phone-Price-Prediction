@@ -1,45 +1,79 @@
-# Used Phone Price Prediction Analysis
-
-## Overview
-
-This repository contains the code and documentation for the "Used Phone Price Prediction" analysis conducted in August 2023 by Aishwarya Akkim, Ganavi Hemachandra, and Saurabh Kale, as part of the Advanced Big Data Analytics/AI course (IFT 512) at Arizona State University.
+# Used Phone Price Prediction
 
 ## Introduction
 
-The "Used Phone Price Prediction" analysis aims to develop a predictive model using Python, NumPy, Seaborn, and scikit-learn to accurately analyze and forecast resale prices of smartphones and tablets. The analysis provides insights into the key features and usage patterns that influence used device prices, enabling stakeholders in the smartphone industry, resale platforms, and consumers to make informed decisions.
+The "Used Phone Price Prediction" dataset offers a compelling opportunity for insightful analysis, presenting potential benefits for stakeholders in the smartphone industry, resale platforms, and informed consumers. In the dynamic landscape of technology, grasping the determinants of used phone prices becomes imperative for various players.
+
+This analysis endeavors to construct a predictive model capable of estimating the resale value of used smartphones based on diverse features, including brand, model, age, condition, and storage capacity. The resulting model holds significance for organizations engaged in smartphone resale, empowering them to set competitive prices and optimize inventory. By discerning how various features influence pricing, businesses can refine their strategies, ultimately enhancing profitability.
 
 ## Problem Statement
 
-The primary goal of the analysis is to address the pricing challenge faced by a company specializing in the collection and resale of used phones and tablets. The company aims to develop a robust regression model capable of predicting the used prices of these devices accurately. By leveraging a dataset containing essential information about used phones and tablets, the analysis seeks to uncover underlying relationships and patterns within the data to guide pricing decisions effectively.
+The problem at hand is to address the pricing challenge faced by a company specializing in the collection and resale of used phones and tablets. The primary goal is to develop a robust regression model capable of predicting the used prices of these devices accurately. The company recognizes the importance of efficient pricing in maximizing profits and maintaining competitiveness in the market.
 
 ## Techniques Used
 
-The analysis employs various techniques, including data processing, exploratory data analysis (EDA), feature engineering, and model selection and evaluation. Techniques such as regression modeling (Linear, Ridge, Lasso, SVM, XGBoost) and dimensionality reduction methods (PCA) are utilized to achieve high accuracy in estimating used phone prices.
+- Data Processing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Selection and Evaluation
 
-## Key Findings
+## Key Phone Features
 
-Insights derived from the analysis reveal valuable information about phone features and usage patterns that influence pricing in the secondary market. Key findings include prevalent phone features such as screen size, camera specifications, storage and memory, battery life, release date, and usage duration.
+- Brand and Operating System
+- Screen Characteristics
+- Network Connectivity
+- Camera Specifications
+- Storage and Memory
+- Battery Life and Weight
+- Release Date and Usage Duration
+- Price Insights
 
-## Technology Description Section
+## Directed Acyclic Graph (DAG)
 
-- **Datasource:** The dataset used in the analysis is sourced from [Kaggle](https://www.kaggle.com/code/kavya2099/used-phone-price-prediction#Model-Selection-and-Evaluation).
-- **Variables:** The dataset contains variables such as device brand, operating system, screen size, network connectivity, camera specifications, storage and memory, battery capacity, weight, release year, days used, normalized new price, and normalized used price.
-- **Technologies Used:** Python, NumPy, Seaborn, scikit-learn.
+The DAG provides a visual guide for decision-making in terms of feature importance. Features with arrows pointing towards the target variables are considered influential. It serves as a high-level representation of the interconnections among variables and their potential impact on predicting used device prices.
+
+## Technology Description
+
+**Datasource:** [Used Phone Price Prediction Dataset](https://www.kaggle.com/code/kavya2099/used-phone-price-prediction#Model-Selection-and-Evaluation)
+
+**Variables:**
+- device_brand
+- os
+- screen_size
+- 4g
+- 5g
+- front_camera_mp
+- back_camera_mp
+- internal_memory
+- ram
+- battery
+- weight
+- release_year
+- days_used
+- normalized_new_price
+- normalized_used_price (TARGET)
+
+**Technologies used:**
+- Python
+- Seaborn
+- NumPy
+- scikit-learn
 
 ## Knowledge and Value Claims
 
-The analysis provides valuable insights that can significantly impact decision-making processes within the used phone and tablet market. Insights derived from EDA and predictive modeling aid in optimizing pricing strategies for businesses, enhancing consumer decision-making, and providing strategic planning and market insights for industry stakeholders.
+This section summarizes the knowledge claims derived from the analysis and their practical implications for stakeholders in the used phone market. It highlights the importance of insights for informed decision-making and aligns the analysis process with the CRISP-DM model's structured workflow.
+
+## Code Screen Shots
+
+This section includes visual representations of code snippets and outputs for various stages of the analysis. The screenshots showcase the implementation of data processing, exploratory data analysis, feature engineering, and model selection.
+![image](https://github.com/ganavihemachandra/Used-Phone-Price-Prediction/assets/85887828/eef92cfd-e695-4540-811f-5bf5d7579fc7)
+
+![image](https://github.com/ganavihemachandra/Used-Phone-Price-Prediction/assets/85887828/597abb6b-3ba6-46d3-978b-8b263b5f492b)
+
+![image](https://github.com/ganavihemachandra/Used-Phone-Price-Prediction/assets/85887828/43d592eb-4a40-496b-8c8b-8a911f879c10)
+
 
 ## Summary & Conclusions
 
-In summary, the analysis delivers a valuable resource for organizations in the used smartphone market, enabling data-driven decisions for pricing and inventory optimization. It provides insights into the factors shaping smartphone resale prices, benefiting both businesses and consumers navigating the used device market.
+The analysis findings are summarized, emphasizing their significance and implications for stakeholders. It concludes by highlighting the value of data-driven decision-making and the potential for future advancements in the used phone market.
 
-## Contributors
-
-- Aishwarya Akkim
-- Ganavi Hemachandra
-- Saurabh Kale
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
